@@ -1,0 +1,21 @@
+/****************************************** item scroll down */
+
+.parent-scroll-down{
+    position: fixed;
+    bottom: 0;
+    left: 10px;
+    width: 100%;
+    background-color: rgb(23, 26, 26);
+    padding: 10px;
+}
+.item-scroll-down {
+    all: unset;
+    border: 1px solid #fff;
+    margin-right: 1em;
+    padding: 5px 10px;
+    border-radius: 20px;
+    font-family: "Monument Extended";
+    font-size: 10px;
+    font-weight: 200;
+    cursor: pointer;
+}

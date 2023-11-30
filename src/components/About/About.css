@@ -1,0 +1,66 @@
+
+/************************************* section about me */
+
+.about{
+    /* background-color: blueviolet; */
+    background-color: #181A1A;
+    width: 100%;
+    height: 60vh;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 20px;
+}
+
+.about h2{
+    text-align: center;
+    margin: 10px;
+    font-family: "Monument Extended";
+}
+
+.about p{
+    text-align: center;
+    font-weight: 200;
+    font-size: 25px;
+    /* font-family: Arial, Helvetica, sans-serif; */
+    font-family: "Juana";
+    font-style: italic;
+}
+
+.about .about-me{
+    text-decoration-line: underline;
+    text-decoration-style: wavy;
+    text-decoration-color: #FF8080;
+}
+
+.about .about-cv{
+    all: unset;
+    background-color: #FF8080;
+    border: 1px solid #FF8080;
+    padding: 10px 20px 10px 20px;
+    border-radius: 50px;
+    font-family: "Monument Extended";
+    margin-top: 20px;
+    cursor: pointer;
+    transition: all 250ms ease-in-out;
+}
+
+.about .about-cv:hover{
+    background: transparent;
+    border: 1px solid #FF8080;
+}
+
+.about .about-creative{
+    background-color: #FF8080;
+    padding: 3px 8px;
+    border-radius: 50px;
+    color: #181A1A;
+}
+
+.about .about-sticker{
+    /* transform: rotate(45deg); */
+    transform: rotateY(180deg);
+    width: 100%;
+    height: 100px;
+}

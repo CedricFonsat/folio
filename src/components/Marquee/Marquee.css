@@ -1,0 +1,22 @@
+
+ /****************************************** section marquee */
+
+ .marquee{
+    background-color:  #FF8080;
+    width: 100%;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    font-family: "Monument Extended";
+    overflow: hidden;
+ }
+
+ .marquee div{
+    display: flex;
+    padding: 0 0 0 10px;
+    align-items: center;
+ }
+
+ .marquee div p{
+    font-size: 35px;
+ }

@@ -1,0 +1,95 @@
+@font-face {
+    font-family: "Monument Extended";
+    src: url('./assets/fonts/MonumentExtended-Regular.otf');
+}
+
+
+@font-face {
+    font-family: "Juana";
+    src: url('src/assets/Demo_Fonts/Fontspring-DEMO-juana-mediumit.otf');
+}
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+    color: white;
+}
+
+body {
+    background-color: rgb(23, 26, 26);
+}
+
+@media(max-width: 900px) {}
+
+/* .animation{
+    font-family: "Monument Extended";
+    text-transform: uppercase;
+    animation: marquee-animation 80s linear infinite;
+} */
+
+/* @keyframes marquee-animation {
+    0%{
+        transform: translate(0,0);
+    }
+    100%{
+        transform: translate(-100%,0);
+    }
+} */
+
+/************************************************* section intro */
+
+
+.intro {
+    font-family: "Monument Extended";
+    height: 60vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.intro p .icon-designer {
+    display: inline;
+
+    border-radius: 50px;
+    background-color: #FF8080;
+    font-size: 25px;
+    padding: 4px 7px;
+}
+
+.intro p {
+    font-size: 2em;
+    line-height: normal;
+    text-align: center;
+}
+
+.intro .intro-tomorrow {
+    background-color: #FF8080;
+    border-radius: 100px;
+    padding: 4px 12px 4px 12px;
+    color: rgb(23, 26, 26);
+}
+
+.intro .intro-sticker {
+    width: 100px;
+    height: 100px;
+    margin-top: 20px;
+}
+
+.intro .intro-pattern {
+    position: absolute;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    height: 60vh;
+    width: 100%;
+}
+
+.intro .intro-pattern img {
+    width: 200%;
+    opacity: 0.4;
+}
