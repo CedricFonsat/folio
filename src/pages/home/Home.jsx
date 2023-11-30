@@ -6,6 +6,7 @@ import Marquee from '../../components/Marquee/Marquee'
 import About from '../../components/About/About'
 import ScrollDown from '../../components/ScrollDown/ScrollDown'
 import Footer from '../../components/Footer/Footer'
+import Grid from '../../assets/grid.webp'
 
 const Index = () => {
     return (
@@ -24,7 +25,7 @@ const Index = () => {
                     </div>
 
                     <div className='intro-pattern'>
-                        <img src="src/assets/pattern-intro.webp" />
+                        <img src={Grid} />
                     </div>
                 </div>
                 <Marquee />
