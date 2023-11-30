@@ -1,5 +1,5 @@
 import React from 'react'
-import './Index.css'
+import './Home.css'
 import IonIcon from '@reacticons/ionicons'
 import Nav from '../../components/Nav/Nav'
 import Marquee from '../../components/Marquee/Marquee'
