@@ -31,13 +31,14 @@
 .about .about-me{
     text-decoration-line: underline;
     text-decoration-style: wavy;
-    text-decoration-color: #FF8080;
+    /* text-decoration-color: #FF8080; */
+    text-decoration-color: var(--main-bg-color);;
 }
 
 .about .about-cv{
     all: unset;
-    background-color: #FF8080;
-    border: 1px solid #FF8080;
+    background-color: var(--main-bg-color);
+    border: 1px solid var(--main-bg-color);
     padding: 10px 20px 10px 20px;
     border-radius: 50px;
     font-family: "Monument Extended";
@@ -48,11 +49,11 @@
 
 .about .about-cv:hover{
     background: transparent;
-    border: 1px solid #FF8080;
+    border: 1px solid var(--main-bg-color);
 }
 
 .about .about-creative{
-    background-color: #FF8080;
+    background-color: var(--main-bg-color);
     padding: 3px 8px;
     border-radius: 50px;
     color: #181A1A;

@@ -2,21 +2,43 @@
  /****************************************** section marquee */
 
  .marquee{
-    background-color:  #FF8080;
+   position: relative;
+   overflow: hidden;
+   width: 100%;
+   height: 60px;
+   background-color:  var(--main-bg-color);
+ }
+
+ .marquee article{
     width: 100%;
     height: 60px;
     display: flex;
-    align-items: center;
     font-family: "Monument Extended";
-    overflow: hidden;
+    position: absolute;
+    white-space: nowrap;
+    padding-left: -10%;
+    animation: marquee-animation 10s linear infinite;
  }
 
- .marquee div{
+ .marquee article div{
     display: flex;
     padding: 0 0 0 10px;
     align-items: center;
  }
 
- .marquee div p{
+ .marquee article div p{
     font-size: 35px;
  }
+
+ @keyframes marquee-animation {
+   0%{
+       transform: translate(0,0);
+   }
+   100%{
+       transform: translate(-100%,0);
+   }
+}
+
+.showcase-style{
+   margin-right: 15px;
+}

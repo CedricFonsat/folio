@@ -5,7 +5,10 @@ import IonIcon from '@reacticons/ionicons'
 const Nav = () => {
     return (
             <nav className='nav'>
-               <h1 className='logo'>Logo</h1>
+               <div className='logo'>
+               <h1>CEDRIC</h1>
+               <h2>FONSAT</h2>
+               </div>
 
                <div className='desktop-menu'></div>
                <div className='mobile-menu'>

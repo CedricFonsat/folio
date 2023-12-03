@@ -33,6 +33,9 @@ nav div{
 
 
 .logo{
-    font-size: 30px;
+    font-size: .5em;
     font-family: "Monument Extended";
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
 }
